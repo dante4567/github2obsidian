@@ -14,7 +14,7 @@ extract basic info from my starred github repos (readme, number of stars, and - 
 
 ### pre-requisites
 - python 3 installed
-- python module *request* (install via --pip install requests--)
+- python module **request** (install via *pip install requests*)
 - github account
 - github personal access token for your github account (https://github.com/settings/tokens)
 - 
