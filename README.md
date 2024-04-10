@@ -12,8 +12,13 @@ extract basic info from my starred github repos (readme, number of stars, and - 
   - star count.
 - Generates a Markdown file for each repository with topics included as obsidian/markdown tags (e.g. topic "mapbox" become #mapbox in the obsidian markdown)
 
-
-### usage
+### pre-requisites
+- python installed
+- python module *request* (install via ```pip install requests´´´)
+- github account
+- github personal access token for your github account (https://github.com/settings/tokens)
+- 
+### script usage
 - download github2obsidian.py
 - replace 'YOUR_GITHUB_USERNAME' and 'YOUR_GITHUB_TOKEN' with your data
 - set 'OUTPUT_DIR' variable to the dir where you want the Markdown files saved (The script will create this directory if it doesn't exist.
