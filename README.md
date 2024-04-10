@@ -13,8 +13,8 @@ extract basic info from my starred github repos (readme, number of stars, and - 
 - Generates a Markdown file for each repository with topics included as obsidian/markdown tags (e.g. topic "mapbox" become #mapbox in the obsidian markdown)
 
 ### pre-requisites
-- python installed
-- python module *request* (install via ```pip install requests´´´)
+- python 3 installed
+- python module *request* (install via --pip install requests--)
 - github account
 - github personal access token for your github account (https://github.com/settings/tokens)
 - 
